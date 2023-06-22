@@ -7,4 +7,5 @@ import (
 func main() {
 	var a int = 10
 	variables.MostrarEnteros(a)
+	variables.MasVariables()
 }

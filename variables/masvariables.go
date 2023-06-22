@@ -2,6 +2,7 @@ package variables
 
 import (
 	"fmt"
+	"strconv"
 	"time"
 )
 
@@ -15,4 +16,13 @@ func MasVariables() {
 	fmt.Println(vivo)
 	fmt.Println(sueldo)
 	fmt.Println(fecha)
+}
+
+func ImprimirBoolYString() string {
+	return fmt.Sprintf("This si %s and he is %v", name, vivo)
+}
+
+func ConvertirTexto(numero int) string {
+	texto := strconv.Itoa(numero)
+	return texto
 }

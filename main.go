@@ -1,15 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
-
 	"github.com/FernandoMendoza12/godesde0/ejercisios"
-	"github.com/FernandoMendoza12/godesde0/variables"
 )
 
 func main() {
-	var a int = 10
+	/*var a int = 10
 	variables.MostrarEnteros(a)
 	variables.MasVariables()
 	fmt.Println(variables.ImprimirBoolYString())
@@ -27,4 +23,8 @@ func main() {
 
 	fmt.Println(value)
 	fmt.Println(text)
+
+	entradadatos.IngresoNum()
+	*/
+	ejercisios.CapturarDatos()
 }

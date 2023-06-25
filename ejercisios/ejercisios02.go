@@ -22,8 +22,9 @@ func CapturarDatos() {
 
 func mostrarTabla(i int) {
 	fmt.Printf("Tabla del %d", i)
+	var s string = ""
 	for j := 0; j <= 10; j++ {
-		fmt.Printf("%d x %d es igual a %d \n", i, j, i*j)
-
+		s += fmt.Sprintf("%d x %d es igual a %d \n", i, j, i*j)
 	}
+	fmt.Println(s)
 }

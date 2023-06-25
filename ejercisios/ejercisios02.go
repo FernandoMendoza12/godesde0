@@ -7,21 +7,21 @@ import (
 	"strconv"
 )
 
-func capturarDatos() {
+func CapturarDatos() {
 	fmt.Println("Ingresa el numero que desea multiplicar :")
 	scanner := bufio.NewScanner(os.Stdin)
 	if scanner.Scan() {
 		num, err := strconv.Atoi(scanner.Text())
 		if err != nil {
-			mostrarTabla(num)
+			fmt.Println("El dato ingresado no es un numero", err)
 		} else {
-			fmt.Println("El dato ingresado no es un numero")
+			mostrarTabla(num)
 		}
 	}
 }
 
 func mostrarTabla(i int) {
-	for j := 0; i < 10; i++ {
-		fmt.Println(i * j)
+	for j := 0; j <= 10; j++ {
+		fmt.Println(j * i)
 	}
 }

@@ -41,5 +41,5 @@ func main() {
 
 	*/
 
-	deferPanic.VemosDefer()
+	deferPanic.EjemploPanic()
 }

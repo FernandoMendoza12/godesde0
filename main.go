@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/FernandoMendoza12/godesde0/ejercisios"
+	"github.com/FernandoMendoza12/godesde0/files"
 )
 
 func main() {
@@ -24,7 +24,7 @@ func main() {
 	fmt.Println(value)
 	fmt.Println(text)
 
-	entradadatos.IngresoNum()
 	*/
-	ejercisios.CapturarDatos()
+	files.SumaTabla()
+	files.LeerArchivo()
 }

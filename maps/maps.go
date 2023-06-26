@@ -4,5 +4,9 @@ import "fmt"
 
 func MostrarMapa() {
 	paises := make(map[string]string)
-	fmt.Println(paises)
+
+	paises["Mexico"] = "D.F."
+	paises["Argentina"] = "Buenos Aires"
+	fmt.Println(paises["Mexico"])
+
 }

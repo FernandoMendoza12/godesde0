@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/FernandoMendoza12/godesde0/maps"
+	"github.com/FernandoMendoza12/godesde0/structs"
 )
 
 func main() {
@@ -28,7 +28,9 @@ func main() {
 	files.LeerArchivo()
 
 	funciones.Calculos()
-	*/
 
 	maps.MostrarMapa()
+	*/
+
+	structs.AltaUsuario()
 }

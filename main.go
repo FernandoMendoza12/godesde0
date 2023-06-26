@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/FernandoMendoza12/godesde0/structs"
+	ejerinterfaces "github.com/FernandoMendoza12/godesde0/ejer_Interfaces"
+	"github.com/FernandoMendoza12/godesde0/modelos"
 )
 
 func main() {
@@ -30,7 +31,9 @@ func main() {
 	funciones.Calculos()
 
 	maps.MostrarMapa()
-	*/
 
 	structs.AltaUsuario()
+	*/
+	Pedro := new(modelos.Hombre)
+	ejerinterfaces.HumanosRespirando(Pedro)
 }

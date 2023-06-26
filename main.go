@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/FernandoMendoza12/godesde0/files"
+	"github.com/FernandoMendoza12/godesde0/funciones"
 )
 
 func main() {
@@ -24,7 +24,11 @@ func main() {
 	fmt.Println(value)
 	fmt.Println(text)
 
-	*/
 	files.SumaTabla()
 	files.LeerArchivo()
+
+	funciones.Calculos()
+	*/
+
+	funciones.LlamarClosure()
 }

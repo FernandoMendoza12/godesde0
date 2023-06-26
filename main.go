@@ -1,8 +1,7 @@
 package main
 
 import (
-	ejerinterfaces "github.com/FernandoMendoza12/godesde0/ejer_Interfaces"
-	"github.com/FernandoMendoza12/godesde0/modelos"
+	"github.com/FernandoMendoza12/godesde0/deferPanic"
 )
 
 func main() {
@@ -33,10 +32,14 @@ func main() {
 	maps.MostrarMapa()
 
 	structs.AltaUsuario()
-	*/
+
 	Pedro := new(modelos.Hombre)
 	ejerinterfaces.HumanosRespirando(Pedro)
 
 	Maria := new(modelos.Mujer)
 	ejerinterfaces.HumanosRespirando(Maria)
+
+	*/
+
+	deferPanic.VemosDefer()
 }

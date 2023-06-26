@@ -1,9 +1,5 @@
 package main
 
-import (
-	"github.com/FernandoMendoza12/godesde0/deferPanic"
-)
-
 func main() {
 	/*var a int = 10
 	variables.MostrarEnteros(a)
@@ -39,7 +35,16 @@ func main() {
 	Maria := new(modelos.Mujer)
 	ejerinterfaces.HumanosRespirando(Maria)
 
+	deferPanic.EjemploPanic()
+
+	ch1 := make(chan bool)
+	go goroutines.MiNombreLento("Fernando Mendoza Moreno", ch1)
+	defer func() {
+		<-ch1
+	}()
+	fmt.Println("Estoy aqui")
 	*/
 
-	deferPanic.EjemploPanic()
+	WebServer.WebServer()
+
 }

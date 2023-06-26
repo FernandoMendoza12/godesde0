@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/FernandoMendoza12/godesde0/funciones"
+	"github.com/FernandoMendoza12/godesde0/maps"
 )
 
 func main() {
@@ -30,5 +30,5 @@ func main() {
 	funciones.Calculos()
 	*/
 
-	funciones.Exponencia(2)
+	maps.MostrarMapa()
 }

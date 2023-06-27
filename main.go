@@ -1,5 +1,9 @@
 package main
 
+import (
+	"github.com/FernandoMendoza12/godesde0/middleware"
+)
+
 func main() {
 	/*var a int = 10
 	variables.MostrarEnteros(a)
@@ -43,8 +47,9 @@ func main() {
 		<-ch1
 	}()
 	fmt.Println("Estoy aqui")
-	*/
 
-	WebServer.WebServer()
+
+	server.WebServer()*/
+	middleware.MiMiddleware()
 
 }

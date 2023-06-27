@@ -8,5 +8,5 @@ func WebServer() {
 }
 
 func home(w http.ResponseWriter, r *http.Request) {
-	http.ServeFile(w, r, "./index.html")
+	http.ServeFile(w, r, "./server/index.html")
 }
